@@ -13,26 +13,28 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498">
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/buttonNew"
             android:layout_width="186dp"
             android:layout_height="80dp"
-            android:text="Button" />
+            android:text="nueva partida" />
 
         <Button
-            android:id="@+id/button8"
+            android:id="@+id/buttonCharge"
             android:layout_width="186dp"
             android:layout_height="80dp"
-            android:text="Button" />
+            android:text="cargar partida" />
 
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/buttonConf"
             android:layout_width="186dp"
             android:layout_height="80dp"
-            android:text="Button" />
+            android:text="ajustes" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
