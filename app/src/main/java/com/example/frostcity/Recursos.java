@@ -3,8 +3,8 @@ package com.example.frostcity;
 public class Recursos {
 
         // Estadísticas
-        public static int casa;
-        public static int poblacion;
+        public static int casa = 3;
+        public static int poblacion = 50;
 
         // Recursos
         public static int madera;
@@ -21,7 +21,7 @@ public class Recursos {
         public static int dia;
 
         // Temperatura
-        public static int nivelTemperatura;
+        public static int nivelTemperatura = 0;
         public static int contadorTemperatura;
         public static int limiteTemp;
         public static int diaCambio;

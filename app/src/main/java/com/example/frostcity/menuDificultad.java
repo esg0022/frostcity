@@ -37,6 +37,15 @@ public class menuDificultad extends AppCompatActivity {
                 Recursos.descontento = 50;
             }
         });
+        dificil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Recursos.madera = 50;
+                Recursos.carbon = 100;
+                Recursos.hierro = 20;
+                Recursos.descontento = 75;
+            }
+        });
 
 
 

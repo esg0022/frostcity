@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         cargar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Recursos.madera = 75;
+                Recursos.madera = 0;
 
             }
         });

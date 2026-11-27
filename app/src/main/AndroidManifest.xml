@@ -26,6 +26,10 @@
             android:exported="false"
             android:theme="@style/Theme.Frostcity"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".game"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>
